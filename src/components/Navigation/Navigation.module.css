@@ -1,0 +1,28 @@
+.navList {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    box-shadow: 0 5px 15px 0 rgba(165, 144, 144, 0.2);
+
+
+}
+
+.navListItem {
+    margin-left: 20px;
+    padding-right: 20px;
+
+    font-size: 25px;
+    font-weight: bold;
+    border-right: 1px solid #4b4949;
+
+}
+/*.navListItem a{*/
+/*    color: #8da59c;*/
+/*}*/
+
+.navLink {
+    border-bottom: 3px solid #ff003b;
+    padding-bottom: 10px;
+    color: #f80455;
+}

@@ -1,0 +1,47 @@
+.title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #757b79;
+}
+
+.trendList {
+    display: grid;
+    max-width: calc(100vw - 48px);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 16px;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+.trendListItem {
+    border-radius: 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+    background-color: #6f6969;
+
+}
+
+.trendListItem:hover {
+    transform: scale(1.03);
+    cursor: zoom-in;
+}
+
+.img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 30px 30px 0 0;
+}
+
+.name {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}

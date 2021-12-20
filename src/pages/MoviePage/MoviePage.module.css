@@ -1,0 +1,64 @@
+.searchForm {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formWrapper {
+    text-align: center;
+}
+.searchInput {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.searchBtn {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.moviesList {
+    display: grid;
+    max-width: calc(100vw - 48px);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 16px;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.moviesListItem {
+    border-radius: 2px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.moviesListItem:hover {
+    transform: scale(1.03);
+    cursor: zoom-in;
+}
+
+.img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.name {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}

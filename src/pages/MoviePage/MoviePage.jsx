@@ -28,8 +28,8 @@ const MoviePage = ({ setError }) => {
                 data.results.length === 0 ? setStatus("error") : setMovies(data.results)
             )
             .catch((err) => setError(err));
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [query]);
+        
+    }, [query, setError]);
 
     const handlerOnChange = (e) => {
         const { value } = e.target;
